@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Javascript image dropdown - basic</title>
+    <link rel="stylesheet" href="css/sample.css" />
+    <script src="../js/jquery/jquery-1.9.0.min.js"></script>
+    <!-- <msdropdown> -->
+    <link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
+    <script src="../js/msdropdown/jquery.dd.min.js"></script>
+    <!-- </msdropdown> -->
+  </head>
+  <body>
+    <table
+      width="100%"
+      border="0"
+      cellspacing="1"
+      cellpadding="5"
+      class="topmenu"
+    >
+      <tr>
+        <td colspan="2" class="top">
+          <h1>CookingDom Arena Batch</h1>
+        </td>
+      </tr>
+      <tr>
+        <td>developer : 오원주, 이성현</td>
+      </tr>
+    </table>
+    <form
+      action="submitdata.php"
+      method="post"
+      enctype="multipart/form-data"
+      name="frmdata"
+    >
+      <table
+        width="100%"
+        border="0"
+        cellspacing="1"
+        cellpadding="5"
+        class="tblWhite"
+      >
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr align="center" bgcolor="skybule">
+          <td>전방</td>
+          <td>중앙</td>
+          <td>후방</td>
+        </tr>
+        <tr>
+          <td>
+            <select name="tech1" class="tech1" id="tech1" style="width: 200px">
+              <option value="999" data-image="../Img/999.png" name="x">
+                쿠키 X
+              </option>
+              <option value="777" data-image="../Img/777.png" name="hide">
+                숨겨진 쿠키
+              </option>
+              <option value="1" data-image="../Img/1 brave.png" name="1">
+                용감한 쿠키
+              </option>
+              <option value="11" data-image="../Img/11.png" name="11">
+                다크초코 쿠키
+              </option>
+              <option value="21" data-image="../Img/21.png" name="21">
+                딸기크레페맛 쿠키
+              </option>
+              <option value="31" data-image="../Img/31.png" name="31">
+                블랙레이즌맛 쿠키
+              </option>
+              <option value="41" data-image="../Img/41.png" name="41">
+                라떼맛 쿠키
+              </option>
+              <option value="51" data-image="../Img/51.png" name="51">
+                에스프레소맛 쿠키
+              </option>
+              <option value="61" data-image="../Img/61.png" name="61">
+                감초맛 쿠키
+              </option>
+              <option value="71" data-image="../Img/71.png" name="71">
+                허브맛 쿠키
+              </option>
+              <option value="81" data-image="../Img/81.png" name="81">
+                석류맛 쿠키
+              </option>
+              <option value="91" data-image="../Img/91.png" name="91">
+                퓨어바닐라 쿠키
+              </option>
+              <option value="101" data-image="../Img/101.png" name="101">
+                호밀맛 쿠키
+              </option>
+              <option value="111" data-image="../Img/111.png" name="111">
+                뱀파이어 쿠키
+              </option>
+              <option value="121" data-image="../Img/121.png" name="121">
+                정글전사 쿠키
+              </option>
+              <option value="131" data-image="../Img/131.png" name="131">
+                아몬드맛 쿠키
+              </option>
+            </select>
+          </td>
+          <td>
+            <select name="tech3" class="tech3" id="tech3" style="width: 200px">
+              <option value="999" data-image="../Img/999.png" name="x">
+                쿠키 X
+              </option>
+              <option value="777" data-image="../Img/777.png" name="hide">
+                숨겨진 쿠키
+              </option>
+              <option value="1" data-image="../Img/1 brave.png" name="1">
+                용감한 쿠키
+              </option>
+              <option value="11" data-image="../Img/11.png" name="11">
+                다크초코 쿠키
+              </option>
+              <option value="21" data-image="../Img/21.png" name="21">
+                딸기크레페맛 쿠키
+              </option>
+              <option value="31" data-image="../Img/31.png" name="31">
+                블랙레이즌맛 쿠키
+              </option>
+              <option value="41" data-image="../Img/41.png" name="41">
+                라떼맛 쿠키
+              </option>
+              <option value="51" data-image="../Img/51.png" name="51">
+                에스프레소맛 쿠키
+              </option>
+              <option value="61" data-image="../Img/61.png" name="61">
+                감초맛 쿠키
+              </option>
+              <option value="71" data-image="../Img/71.png" name="71">
+                허브맛 쿠키
+              </option>
+              <option value="81" data-image="../Img/81.png" name="81">
+                석류맛 쿠키
+              </option>
+              <option value="91" data-image="../Img/91.png" name="91">
+                퓨어바닐라 쿠키
+              </option>
+              <option value="101" data-image="../Img/101.png" name="101">
+                호밀맛 쿠키
+              </option>
+              <option value="111" data-image="../Img/111.png" name="111">
+                뱀파이어 쿠키
+              </option>
+              <option value="121" data-image="../Img/121.png" name="121">
+                정글전사 쿠키
+              </option>
+              <option value="131" data-image="../Img/131.png" name="131">
+                아몬드맛 쿠키
+              </option>
+            </select>
+          </td>
+          <td>
+            <select name="tech5" class="tech5" id="tech5" style="width: 200px">
+              <option value="999" data-image="../Img/999.png" name="x">
+                쿠키 X
+              </option>
+              <option value="777" data-image="../Img/777.png" name="hide">
+                숨겨진 쿠키
+              </option>
+              <option value="1" data-image="../Img/1 brave.png" name="1">
+                용감한 쿠키
+              </option>
+              <option value="11" data-image="../Img/11.png" name="11">
+                다크초코 쿠키
+              </option>
+              <option value="21" data-image="../Img/21.png" name="21">
+                딸기크레페맛 쿠키
+              </option>
+              <option value="31" data-image="../Img/31.png" name="31">
+                블랙레이즌맛 쿠키
+              </option>
+              <option value="41" data-image="../Img/41.png" name="41">
+                라떼맛 쿠키
+              </option>
+              <option value="51" data-image="../Img/51.png" name="51">
+                에스프레소맛 쿠키
+              </option>
+              <option value="61" data-image="../Img/61.png" name="61">
+                감초맛 쿠키
+              </option>
+              <option value="71" data-image="../Img/71.png" name="71">
+                허브맛 쿠키
+              </option>
+              <option value="81" data-image="../Img/81.png" name="81">
+                석류맛 쿠키
+              </option>
+              <option value="91" data-image="../Img/91.png" name="91">
+                퓨어바닐라 쿠키
+              </option>
+              <option value="101" data-image="../Img/101.png" name="101">
+                호밀맛 쿠키
+              </option>
+              <option value="111" data-image="../Img/111.png" name="111">
+                뱀파이어 쿠키
+              </option>
+              <option value="121" data-image="../Img/121.png" name="121">
+                정글전사 쿠키
+              </option>
+              <option value="131" data-image="../Img/131.png" name="131">
+                아몬드맛 쿠키
+              </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <select name="tech2" class="tech2" id="tech2" style="width: 200px">
+              <option value="999" data-image="../Img/999.png" name="x">
+                쿠키 X
+              </option>
+              <option value="777" data-image="../Img/777.png" name="hide">
+                숨겨진 쿠키
+              </option>
+              <option value="1" data-image="../Img/1 brave.png" name="1">
+                용감한 쿠키
+              </option>
+              <option value="11" data-image="../Img/11.png" name="11">
+                다크초코 쿠키
+              </option>
+              <option value="21" data-image="../Img/21.png" name="21">
+                딸기크레페맛 쿠키
+              </option>
+              <option value="31" data-image="../Img/31.png" name="31">
+                블랙레이즌맛 쿠키
+              </option>
+              <option value="41" data-image="../Img/41.png" name="41">
+                라떼맛 쿠키
+              </option>
+              <option value="51" data-image="../Img/51.png" name="51">
+                에스프레소맛 쿠키
+              </option>
+              <option value="61" data-image="../Img/61.png" name="61">
+                감초맛 쿠키
+              </option>
+              <option value="71" data-image="../Img/71.png" name="71">
+                허브맛 쿠키
+              </option>
+              <option value="81" data-image="../Img/81.png" name="81">
+                석류맛 쿠키
+              </option>
+              <option value="91" data-image="../Img/91.png" name="91">
+                퓨어바닐라 쿠키
+              </option>
+              <option value="101" data-image="../Img/101.png" name="101">
+                호밀맛 쿠키
+              </option>
+              <option value="111" data-image="../Img/111.png" name="111">
+                뱀파이어 쿠키
+              </option>
+              <option value="121" data-image="../Img/121.png" name="121">
+                정글전사 쿠키
+              </option>
+              <option value="131" data-image="../Img/131.png" name="131">
+                아몬드맛 쿠키
+              </option>
+            </select>
+          </td>
+          <td>
+            <select name="tech4" class="tech4" id="tech4" style="width: 200px">
+              <option value="999" data-image="../Img/999.png" name="x">
+                쿠키 X
+              </option>
+              <option value="777" data-image="../Img/777.png" name="hide">
+                숨겨진 쿠키
+              </option>
+              <option value="1" data-image="../Img/1 brave.png" name="1">
+                용감한 쿠키
+              </option>
+              <option value="11" data-image="../Img/11.png" name="11">
+                다크초코 쿠키
+              </option>
+              <option value="21" data-image="../Img/21.png" name="21">
+                딸기크레페맛 쿠키
+              </option>
+              <option value="31" data-image="../Img/31.png" name="31">
+                블랙레이즌맛 쿠키
+              </option>
+              <option value="41" data-image="../Img/41.png" name="41">
+                라떼맛 쿠키
+              </option>
+              <option value="51" data-image="../Img/51.png" name="51">
+                에스프레소맛 쿠키
+              </option>
+              <option value="61" data-image="../Img/61.png" name="61">
+                감초맛 쿠키
+              </option>
+              <option value="71" data-image="../Img/71.png" name="71">
+                허브맛 쿠키
+              </option>
+              <option value="81" data-image="../Img/81.png" name="81">
+                석류맛 쿠키
+              </option>
+              <option value="91" data-image="../Img/91.png" name="91">
+                퓨어바닐라 쿠키
+              </option>
+              <option value="101" data-image="../Img/101.png" name="101">
+                호밀맛 쿠키
+              </option>
+              <option value="111" data-image="../Img/111.png" name="111">
+                뱀파이어 쿠키
+              </option>
+              <option value="121" data-image="../Img/121.png" name="121">
+                정글전사 쿠키
+              </option>
+              <option value="131" data-image="../Img/131.png" name="131">
+                아몬드맛 쿠키
+              </option>
+            </select>
+          </td>
+          <td>
+            <select name="tech6" class="tech6" id="tech6" style="width: 200px">
+              <option value="999" data-image="../Img/999.png" name="x">
+                쿠키 X
+              </option>
+              <option value="777" data-image="../Img/777.png" name="hide">
+                숨겨진 쿠키
+              </option>
+              <option value="1" data-image="../Img/1 brave.png" name="1">
+                용감한 쿠키
+              </option>
+              <option value="11" data-image="../Img/11.png" name="11">
+                다크초코 쿠키
+              </option>
+              <option value="21" data-image="../Img/21.png" name="21">
+                딸기크레페맛 쿠키
+              </option>
+              <option value="31" data-image="../Img/31.png" name="31">
+                블랙레이즌맛 쿠키
+              </option>
+              <option value="41" data-image="../Img/41.png" name="41">
+                라떼맛 쿠키
+              </option>
+              <option value="51" data-image="../Img/51.png" name="51">
+                에스프레소맛 쿠키
+              </option>
+              <option value="61" data-image="../Img/61.png" name="61">
+                감초맛 쿠키
+              </option>
+              <option value="71" data-image="../Img/71.png" name="71">
+                허브맛 쿠키
+              </option>
+              <option value="81" data-image="../Img/81.png" name="81">
+                석류맛 쿠키
+              </option>
+              <option value="91" data-image="../Img/91.png" name="91">
+                퓨어바닐라 쿠키
+              </option>
+              <option value="101" data-image="../Img/101.png" name="101">
+                호밀맛 쿠키
+              </option>
+              <option value="111" data-image="../Img/111.png" name="111">
+                뱀파이어 쿠키
+              </option>
+              <option value="121" data-image="../Img/121.png" name="121">
+                정글전사 쿠키
+              </option>
+              <option value="131" data-image="../Img/131.png" name="131">
+                아몬드맛 쿠키
+              </option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td valign="top">&nbsp;</td>
+        </tr>
+      </table>
+    </form>
+    <script>
+      //var tc;
+      $(document).ready(function (e) {
+        $("#payments").msDropdown({ visibleRows: 4 });
+        $("#tech6").msDropdown().data("dd");
+        $("#tech5").msDropdown().data("dd");
+        $("#tech4").msDropdown().data("dd");
+        $("#tech3").msDropdown().data("dd");
+        $("#tech2").msDropdown().data("dd");
+        $("#tech1").msDropdown().data("dd"); //{animStyle:'none'} /{animStyle:'slideDown'} {animStyle:'show'}
+        //no use
+        try {
+          var pages = $("#pages")
+            .msDropdown({
+              on: {
+                change: function (data, ui) {
+                  var val = data.value;
+                  if (val != "") window.location = val;
+                },
+              },
+            })
+            .data("dd");
+
+          var pagename = document.location.pathname.toString();
+          pagename = pagename.split("/");
+          pages.setIndexByValue(pagename[pagename.length - 1]);
+          $("#ver").html(msBeautify.version.msDropdown);
+        } catch (e) {
+          //console.log(e);
+        }
+
+        $("#ver").html(msBeautify.version.msDropdown);
+      });
+    </script>
+  </body>
+</html>
