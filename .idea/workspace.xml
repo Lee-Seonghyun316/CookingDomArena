@@ -19,39 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="intial commit">
-      <change afterPath="$PROJECT_DIR$/GPL-LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/1 brave.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/101.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/121.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/131.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/41.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/51.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/61.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/71.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/777.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/91.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Img/999.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MIT-LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/msdropdown/dd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/css/sample.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/msdropdown/skin1/dd_arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/msdropdown/skin1/title-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/msdropdown/skin2/dd_arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/msdropdown/skin2/icon-ok.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/msdropdown/skin2/title-bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery/jquery-1.9.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/msdropdown/jquery.dd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/msdropdown/jquery.dd.min.js" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[ADD] select">
+      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/1 brave.png" beforeDir="false" afterPath="$PROJECT_DIR$/Img/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +66,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v14.14.0/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.18.4/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -117,7 +90,7 @@
       <updated>1620449003990</updated>
       <workItem from="1620449005258" duration="4441000" />
       <workItem from="1620454856385" duration="300000" />
-      <workItem from="1620476878617" duration="375000" />
+      <workItem from="1620476878617" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -126,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620449363114</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[ADD] select">
+      <created>1620477293561</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620477293561</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,9 +125,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="intial commit" />
+    <MESSAGE value="[ADD] select" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] select" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="443" y="290" key="#Prettier/0.25.1440.814@0.25.1440.814" timestamp="1620477980723" />
     <state x="451" y="238" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620451772395">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
@@ -156,10 +141,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1620449366290">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1620477295557">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1620449366290" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1620477295557" />
     <state x="542" y="330" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620449271752">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
