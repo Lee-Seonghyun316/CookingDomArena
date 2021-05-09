@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[ADD] cookie 객체 map 사용">
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] UI 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/examples/css/sample.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <updated>1620449003990</updated>
       <workItem from="1620449005258" duration="4441000" />
       <workItem from="1620454856385" duration="300000" />
-      <workItem from="1620476878617" duration="4243000" />
+      <workItem from="1620476878617" duration="4853000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -112,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620480150882</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[FIX] UI 변경">
+      <created>1620481173230</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620481173230</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +139,8 @@
     <MESSAGE value="intial commit" />
     <MESSAGE value="[ADD] select" />
     <MESSAGE value="[ADD] cookie 객체 map 사용" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] cookie 객체 map 사용" />
+    <MESSAGE value="[FIX] UI 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] UI 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -148,10 +155,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1620480153016">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1620481175578">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1620480153016" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1620481175578" />
     <state x="542" y="330" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620449271752">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
