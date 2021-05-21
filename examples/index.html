@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
     <script src="../js/msdropdown/jquery.dd.min.js"></script>
     <script src="../js/index.js" defer></script>
+    <script src="../js/selectCookie.js" defer></script>
     <!--    script 테그가 위에 있을 때, 밑에 태그 실행 후 script 실행-->
     <style>
       @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
@@ -32,7 +33,7 @@
         </td>
       </tr>
       <tr>
-        <td>developer : 오원주, 이성현</td>
+        <td>developer</td>
       </tr>
     </table>
     <form
@@ -109,13 +110,15 @@
           </td>
         </tr>
         <tr>
-          <td valign="top">&nbsp;</td>
+          <input
+            type="button"
+            id="button1"
+            onclick="button1_click();"
+            value="버튼1"
+          />
         </tr>
         <tr>
-          <td valign="top">&nbsp;</td>
-        </tr>
-        <tr>
-          <td valign="top">&nbsp;</td>
+          <h2 id="result">dd</h2>
         </tr>
       </table>
     </form>

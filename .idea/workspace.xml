@@ -19,8 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] UI 변경">
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 페이지 제목 변경">
+      <change afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/111.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/777.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Img/999.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,12 +87,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -88,7 +105,12 @@
       <updated>1620449003990</updated>
       <workItem from="1620449005258" duration="4441000" />
       <workItem from="1620454856385" duration="300000" />
-      <workItem from="1620476878617" duration="4853000" />
+      <workItem from="1620476878617" duration="4879000" />
+      <workItem from="1620567888227" duration="14000" />
+      <workItem from="1621141321323" duration="1716000" />
+      <workItem from="1621438168004" duration="567000" />
+      <workItem from="1621487292185" duration="1714000" />
+      <workItem from="1621588731874" duration="6782000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -118,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620481173230</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[FIX] 페이지 제목 변경">
+      <created>1620567862828</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620567862828</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,13 +163,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="intial commit" />
     <MESSAGE value="[ADD] select" />
     <MESSAGE value="[ADD] cookie 객체 map 사용" />
     <MESSAGE value="[FIX] UI 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] UI 변경" />
+    <MESSAGE value="[FIX] 페이지 제목 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 페이지 제목 변경" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
