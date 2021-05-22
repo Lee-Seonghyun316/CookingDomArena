@@ -38,6 +38,9 @@ function button1_click() {
     Number(tech6Value),
     132,
   ];
+  var result_ab = "";
+  var result_ab_list = [];
+  var result_cd = "";
   // alert(typeof input[3]);
   // const questionMark1 = 1;
   const questionMark1 = input.indexOf(777);
@@ -59,24 +62,28 @@ function button1_click() {
   var endCookie = false;
   if (
     (input[questionMark1 + 1] === 777 && input[questionMark1 + 2] === 999) ||
-    (input[questionMark1 + 1 === 999] && input[questionMark1 + 2 === 777])
-  )
+    (input[questionMark1 + 1] === 999 && input[questionMark1 + 2] === 777)
+  ) {
     endCookie = true;
-  // alert(a + "?" + b);
-  var c = -1;
-  var d = -1;
-  if (input[questionMark2 - 1] === 999) {
-    c = input[questionMark2 - 2];
-  } else c = input[questionMark2 - 1];
+    result_ab = a + "??" + b;
+    // result_ab_list.push("h");
+    document.getElementById("result").innerText = result_ab;
+    // alert(typeof input[questionMark1 + 2]);
+  } else {
+    var c = -1;
+    var d = -1;
+    if (input[questionMark2 - 1] === 999) {
+      c = input[questionMark2 - 2];
+    } else c = input[questionMark2 - 1];
 
-  // alert(c);
-  if (input[questionMark2 + 1] === 999) {
-    d = input[questionMark2 + 2];
-  } else d = input[questionMark2 + 1];
-
-  var result = "";
-  if (c === -1 || d === -1) {
-    result = a + "??" + b;
-  } else result = a + "?" + b + "와" + c + "?" + d;
-  document.getElementById("result").innerText = result;
+    // alert(c);
+    if (input[questionMark2 + 1] === 999) {
+      d = input[questionMark2 + 2];
+    } else d = input[questionMark2 + 1];
+    // if (c === -1 || d === -1) {
+    //   result = a + "??" + b;
+    // } else
+    result_cd = a + "?" + b + "와" + c + "?" + d;
+    document.getElementById("result").innerText = result_cd;
+  }
 }

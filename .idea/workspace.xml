@@ -20,25 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 페이지 제목 변경">
-      <change afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/777.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/999.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +38,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -111,6 +95,8 @@
       <workItem from="1621438168004" duration="567000" />
       <workItem from="1621487292185" duration="1714000" />
       <workItem from="1621588731874" duration="6782000" />
+      <workItem from="1621681306984" duration="1697000" />
+      <workItem from="1621683125834" duration="1007000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
