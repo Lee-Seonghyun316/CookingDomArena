@@ -66,7 +66,22 @@ function button1_click() {
   ) {
     endCookie = true;
     result_ab = a + "??" + b;
-    // result_ab_list.push("h");
+  //리스트에 쿠키 추가
+    // for (var i = a; i < b; a++) {
+    //   if (i === 0) {
+    //     result_ab_list.push(cookies[i].value);
+    //   } else {
+    //     var aa = 0;
+    //     aa = (i + 10) / 10;
+    //     // result_ab_list.push(cookies[aa].value);
+    //   }
+    // }
+    // var result = "";
+    //
+    // for (var i = 0; i < result_ab_list.length; i++) {
+    //   result += result_ab_list[i];
+    // }
+
     document.getElementById("result").innerText = result_ab;
     // alert(typeof input[questionMark1 + 2]);
   } else {

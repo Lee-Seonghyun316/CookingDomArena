@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 페이지 제목 변경">
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 쿠키 알고리즘 수정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
     </list>
@@ -96,7 +96,8 @@
       <workItem from="1621487292185" duration="1714000" />
       <workItem from="1621588731874" duration="6782000" />
       <workItem from="1621681306984" duration="1697000" />
-      <workItem from="1621683125834" duration="1007000" />
+      <workItem from="1621683125834" duration="2070000" />
+      <workItem from="1622029473679" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -133,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620567862828</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[FIX] 쿠키 알고리즘 수정">
+      <created>1621684147556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621684147556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +165,8 @@
     <MESSAGE value="[ADD] cookie 객체 map 사용" />
     <MESSAGE value="[FIX] UI 변경" />
     <MESSAGE value="[FIX] 페이지 제목 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 페이지 제목 변경" />
+    <MESSAGE value="[FIX] 쿠키 알고리즘 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 쿠키 알고리즘 수정" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -172,9 +181,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1620481175578">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1621684153411">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1621684153411" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1620481175578" />
     <state x="542" y="330" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1620449271752">
       <screen x="0" y="25" width="1440" height="814" />
