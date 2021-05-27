@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] ppt 사진">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] ppt">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +96,7 @@
       <workItem from="1621588731874" duration="6782000" />
       <workItem from="1621681306984" duration="1697000" />
       <workItem from="1621683125834" duration="2070000" />
-      <workItem from="1622029473679" duration="1188000" />
+      <workItem from="1622029473679" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622080873343</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[FIX] ppt">
+      <created>1622080928109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1622080928109</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +203,8 @@
     <MESSAGE value="[ADD] ppt" />
     <MESSAGE value="[ADD] ppt 사진" />
     <MESSAGE value="[FIX] ppt 사진" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] ppt 사진" />
+    <MESSAGE value="[FIX] ppt" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] ppt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -212,11 +219,11 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1622080875706">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1622080929939">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1621684153411" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1622080875706" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1622080929939" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
