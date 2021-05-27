@@ -1,6 +1,7 @@
 # CookingDomArena
 쿠키런 : 킹덤의 승률을 높이는 쿠키 캐릭터 배치 웹
 
+기획서 ppt
 ![001](./img/ppt/001.jpg)
 ![002](./img/ppt/0012.jpg)
 ![003](./img/ppt/003.jpg)
