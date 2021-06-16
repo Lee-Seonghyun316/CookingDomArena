@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Javascript image dropdown - basic</title>
+    <link rel="stylesheet" href="../examples/css/sample.css" />
+    <script src="../js/jquery/jquery-1.9.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <script src="../js/msdropdown/jquery.dd.min.js"></script>
+    <script src="../js/index.js" defer></script>
+    <script src="../js/selectCookie.js" defer></script>
+    <style>
+      @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+      * {
+        font-family: "Nanum Gothic", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action="submitdata.php"
+      method="post"
+      enctype="multipart/form-data"
+      name="frmdata"
+    >
+      <div>
+        <table
+          width="100%"
+          border="0"
+          cellspacing="1"
+          cellpadding="5"
+          class="tblWhite"
+        >
+          <tr align="center" bgcolor="skybule">
+            <td>전방</td>
+            <td>중앙</td>
+            <td>후방</td>
+          </tr>
+          <tr align="center">
+            <td>
+              <select
+                name="tech1"
+                class="tech1"
+                id="tech1"
+                style="width: 250px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech3"
+                class="tech3"
+                id="tech3"
+                style="width: 250px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech5"
+                class="tech5"
+                id="tech5"
+                style="width: 250px"
+              ></select>
+            </td>
+          </tr>
+          <tr align="center">
+            <td>
+              <select
+                name="tech2"
+                class="tech2"
+                id="tech2"
+                style="width: 250px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech4"
+                class="tech4"
+                id="tech4"
+                style="width: 250px"
+              ></select>
+            </td>
+            <td>
+              <select
+                name="tech6"
+                class="tech6"
+                id="tech6"
+                style="width: 250px"
+              ></select>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table>
+          <tr>
+            <input
+              type="button"
+              id="button1"
+              onclick="button1_click();"
+              value="버튼1"
+            />
+          </tr>
+          <tr>
+            <h2 id="result">dd</h2>
+          </tr>
+        </table>
+      </div>
+    </form>
+    <script>
+      //var tc;
+      $(document).ready(function (e) {
+        $("#payments").msDropdown({ visibleRows: 4 });
+        $("#tech6").msDropdown().data("dd");
+        $("#tech5").msDropdown().data("dd");
+        $("#tech4").msDropdown().data("dd");
+        $("#tech3").msDropdown().data("dd");
+        $("#tech2").msDropdown().data("dd");
+        $("#tech1").msDropdown().data("dd"); //{animStyle:'none'} /{animStyle:'slideDown'} {animStyle:'show'}
+        //no use
+        try {
+          var pages = $("#pages")
+            .msDropdown({
+              on: {
+                change: function (data, ui) {
+                  var val = data.value;
+                  if (val != "") window.location = val;
+                },
+              },
+            })
+            .data("dd");
+
+          var pagename = document.location.pathname.toString();
+          pagename = pagename.split("/");
+          pages.setIndexByValue(pagename[pagename.length - 1]);
+          $("#ver").html(msBeautify.version.msDropdown);
+        } catch (e) {
+          //console.log(e);
+        }
+
+        $("#ver").html(msBeautify.version.msDropdown);
+      });
+    </script>
+  </body>
+</html>
