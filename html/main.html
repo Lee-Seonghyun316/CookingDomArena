@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Javascript image dropdown - basic</title>
-    <link rel="stylesheet" href="../examples/css/sample.css" />
+    <link rel="stylesheet" href="../css/sample.css" />
     <script src="../js/jquery/jquery-1.9.0.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dd.css" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <script src="../js/msdropdown/jquery.dd.min.js"></script>
     <script src="../js/index.js" defer></script>
@@ -31,11 +31,12 @@
           cellspacing="1"
           cellpadding="5"
           class="tblWhite"
+          style="padding: 10px"
         >
-          <tr align="center" bgcolor="skybule">
-            <td>전방</td>
-            <td>중앙</td>
-            <td>후방</td>
+          <tr align="center">
+            <td style="font-weight: bold; color: #fdc4bd">전방</td>
+            <td style="font-weight: bold; color: #fdc4bd">중앙</td>
+            <td style="font-weight: bold; color: #fdc4bd">후방</td>
           </tr>
           <tr align="center">
             <td>
@@ -91,14 +92,14 @@
           </tr>
         </table>
       </div>
-      <div>
+      <div style="background-color: #fdc4bd; margin-top: 10px">
         <table>
           <tr>
             <input
               type="button"
               id="button1"
               onclick="button1_click();"
-              value="버튼1"
+              value="숨겨진 쿠키 예측"
             />
           </tr>
           <tr>

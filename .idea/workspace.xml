@@ -19,16 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] ppt">
-      <change afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/practice.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/howToUse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/introduction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/practice.html" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[ADD] ppt">
+      <change afterPath="$PROJECT_DIR$/Img/광고.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/msdropdown/dd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dd.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/css/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sample.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/howToUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/howToUse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin1/dd_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin1/dd_arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin1/title-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin1/title-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin2/dd_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin2/dd_arrow.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin2/icon-ok.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin2/icon-ok.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin2/title-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin2/title-bg.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ppt/008.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +97,9 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/Img" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -186,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622080928109</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[ADD] introduction.html">
+      <created>1623831565297</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831565297</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[ADD] ppt">
+      <created>1623831582661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1623831582661</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,11 +239,12 @@
     <MESSAGE value="[FIX] UI 변경" />
     <MESSAGE value="[FIX] 페이지 제목 변경" />
     <MESSAGE value="[FIX] 쿠키 알고리즘 수정" />
-    <MESSAGE value="[ADD] ppt" />
     <MESSAGE value="[ADD] ppt 사진" />
     <MESSAGE value="[FIX] ppt 사진" />
     <MESSAGE value="[FIX] ppt" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] ppt" />
+    <MESSAGE value="[ADD] introduction.html" />
+    <MESSAGE value="[ADD] ppt" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] ppt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -234,11 +263,11 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1622080929939">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1623831584861">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1621684153411" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1622080929939" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623831584861" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
