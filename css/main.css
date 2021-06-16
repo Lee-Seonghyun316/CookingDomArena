@@ -3,13 +3,13 @@ div {
   text-align: center;
 }
 .tblWhite {
-  border: solid 1px black;
-  background-color: black;
+  border: solid 1px #707071;
+  background-color: #707071;
 }
 
 #button1 {
   background-color: #ffeec9;
-  color: black;
+  color: #707071;
   font-weight: bold;
   border-radius: 10px;
   padding: 20px;

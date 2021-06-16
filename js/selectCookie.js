@@ -38,16 +38,12 @@ function button1_click() {
     Number(tech6Value),
     132,
   ];
-  var result_ab = "";
-  var result_ab_list = [];
-  var result_cd = "";
-  // alert(typeof input[3]);
-  // const questionMark1 = 1;
+  let result_ab = new Array();
+  let result_cd = new Array();
   const questionMark1 = input.indexOf(777);
   const questionMark2 = input.lastIndexOf(777);
-  // alert(questionMark1);
-  var a = -1;
-  var b = -1;
+  let a = -1;
+  let b = -1;
   if (input[questionMark1 - 1] === 999) a = input[questionMark1 - 2];
   else a = input[questionMark1 - 1];
   // alert(a);
@@ -65,28 +61,24 @@ function button1_click() {
     (input[questionMark1 + 1] === 999 && input[questionMark1 + 2] === 777)
   ) {
     endCookie = true;
-    result_ab = a + "??" + b;
-  //리스트에 쿠키 추가
-    // for (var i = a; i < b; a++) {
-    //   if (i === 0) {
-    //     result_ab_list.push(cookies[i].value);
-    //   } else {
-    //     var aa = 0;
-    //     aa = (i + 10) / 10;
-    //     // result_ab_list.push(cookies[aa].value);
-    //   }
-    // }
-    // var result = "";
-    //
-    // for (var i = 0; i < result_ab_list.length; i++) {
-    //   result += result_ab_list[i];
+    //string으로 표시해보
+    // for (let i = a;i<b;i=i+10){
+    //   let i_string = i
+    //   result_ab += i
     // }
 
-    document.getElementById("result").innerText = result_ab;
+    //배열로 잠시 후
+    for (let i = a; i < b; i = i + 10) {
+      let i_string = i;
+      result_ab.push(i);
+    }
+    //
+    // // result_ab = a + "??" + b;
+    // document.getElementById("result").innerText = result_ab;
     // alert(typeof input[questionMark1 + 2]);
   } else {
-    var c = -1;
-    var d = -1;
+    let c = -1;
+    let d = -1;
     if (input[questionMark2 - 1] === 999) {
       c = input[questionMark2 - 2];
     } else c = input[questionMark2 - 1];
@@ -98,7 +90,33 @@ function button1_click() {
     // if (c === -1 || d === -1) {
     //   result = a + "??" + b;
     // } else
-    result_cd = a + "?" + b + "와" + c + "?" + d;
-    document.getElementById("result").innerText = result_cd;
+
+    //string으로
+    // for (let i = c; i < d; i = i + 10) {
+    //   let i_string = i;
+    //   result_cd += i;
+    // }
+    // result_cd = result_ab + result_cd;
+
+    //배열로
+    for (let i = c; i < d; i = i + 10) {
+      result_cd.push(i);
+    }
+    result_cd.concat(result_ab);
+    let result_cookies = new Array();
+    // for (let i = 0; i < result_cd.length; i++) {
+    //   list_result.concat(cookies.filter((cookie) => cookie.value == i));
+    // }
+
+    result_cookies = cookies.filter((cookie) =>
+      result_cd.includes(cookie.value)
+    );
+    const $result = document.getElementById("result");
+    console.log(result_cookies);
+
+    $result.innerHTML = result_cookies.map(
+      (result_cookie) => `<li>${result_cookie.content}</li>`
+    ).join("");
+    // document.getElementById("result").innerText = result_cd;
   }
 }

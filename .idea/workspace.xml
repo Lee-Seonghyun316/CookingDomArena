@@ -19,29 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[ADD] ppt">
-      <change afterPath="$PROJECT_DIR$/Img/광고.jpeg" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[ADD] css">
+      <change afterPath="$PROJECT_DIR$/Img/thumnail.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Img/광고2.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/msdropdown/dd.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/css/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/sample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/howToUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/howToUse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin1/dd_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin1/dd_arrow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin1/title-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin1/title-bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin2/dd_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin2/dd_arrow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin2/icon-ok.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin2/icon-ok.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/msdropdown/skin2/title-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/Img/msdropdown/skin2/title-bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ppt/008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +64,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -92,6 +79,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Img" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$" />
@@ -214,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623831582661</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="[ADD] css">
+      <created>1623845019936</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1623845019936</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +239,8 @@
     <MESSAGE value="[FIX] ppt" />
     <MESSAGE value="[ADD] introduction.html" />
     <MESSAGE value="[ADD] ppt" />
-    <option name="LAST_COMMIT_MESSAGE" value="[ADD] ppt" />
+    <MESSAGE value="[ADD] css" />
+    <option name="LAST_COMMIT_MESSAGE" value="[ADD] css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -255,18 +251,19 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="451" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.814@0.25.1440.814" timestamp="1620451772395" />
-    <state x="98" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623829890063">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="98" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623850856713">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="98" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1623850856713" />
     <state x="98" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.814@0.25.1440.814" timestamp="1623829890063" />
     <state x="229" y="68" key="SettingsEditor" timestamp="1620449149510">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1623831584861">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1623845022609">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1621684153411" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623845022609" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623831584861" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />
@@ -276,5 +273,9 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="542" y="330" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.814@0.25.1440.814" timestamp="1620449271752" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1623847294405">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1623847294405" />
   </component>
 </project>

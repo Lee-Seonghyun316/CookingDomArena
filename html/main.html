@@ -23,6 +23,7 @@
       method="post"
       enctype="multipart/form-data"
       name="frmdata"
+      style="height: 60vh"
     >
       <div>
         <table
@@ -44,7 +45,7 @@
                 name="tech1"
                 class="tech1"
                 id="tech1"
-                style="width: 250px"
+                style="width: 250px; margin: 10px"
               ></select>
             </td>
             <td>
@@ -52,7 +53,7 @@
                 name="tech3"
                 class="tech3"
                 id="tech3"
-                style="width: 250px"
+                style="width: 250px; margin: 10px"
               ></select>
             </td>
             <td>
@@ -60,7 +61,7 @@
                 name="tech5"
                 class="tech5"
                 id="tech5"
-                style="width: 250px"
+                style="width: 250px; margin: 10px"
               ></select>
             </td>
           </tr>
@@ -70,7 +71,7 @@
                 name="tech2"
                 class="tech2"
                 id="tech2"
-                style="width: 250px"
+                style="width: 250px; margin: 10px"
               ></select>
             </td>
             <td>
@@ -78,7 +79,7 @@
                 name="tech4"
                 class="tech4"
                 id="tech4"
-                style="width: 250px"
+                style="width: 250px; margin: 10px"
               ></select>
             </td>
             <td>
@@ -86,26 +87,39 @@
                 name="tech6"
                 class="tech6"
                 id="tech6"
-                style="width: 250px"
+                style="width: 250px; margin: 10px"
               ></select>
             </td>
           </tr>
         </table>
       </div>
       <div style="background-color: #fdc4bd; margin-top: 10px">
-        <table>
-          <tr>
-            <input
-              type="button"
-              id="button1"
-              onclick="button1_click();"
-              value="숨겨진 쿠키 예측"
-            />
-          </tr>
-          <tr>
-            <h2 id="result">dd</h2>
-          </tr>
-        </table>
+        <div style="text-align: left; padding: 10px">
+          <ul>
+            <li>쿠키 배치 조건 : 숨겨진 쿠키 2개개, x 1개, 쿠키 캐릭터 3개</li>
+            <li>쿠키 배치 조건을 지켰는지 확인하세요.</li>
+          </ul>
+        </div>
+        <div style="background-color: #ffeec9; height: 10px"></div>
+        <div style="">
+          <input
+            type="button"
+            id="button1"
+            onclick="button1_click();"
+            value="숨겨진 쿠키 예측"
+          />
+        </div>
+        <div
+          style="
+            background-color: #ffeec9;
+            height: 10px;
+            padding: 10px;
+            text-align: left;
+          "
+        >
+          <h3>숨겨진 쿠키는?</h3>
+          <ul id="result"></ul>
+        </div>
       </div>
     </form>
     <script>

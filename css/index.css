@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: #707071;
   border-radius: 10px;
   height: 30px;
   margin-bottom: 10px;
@@ -16,12 +16,12 @@
 .nav > ul li {
   padding-right: 30px;
   padding-left: 30px;
-  background-color: black;
+  background-color: #707071;
 }
 .nav > ul a {
   text-decoration: none;
   color: #fdc4bd;
-  background-color: black;
+  background-color: #707071;
 }
 
 .section-aside-container {
@@ -30,7 +30,7 @@
 }
 
 .section-frame {
-  height: 50vh;
+  height:90vh;
   width: 80vw;
 }
 .aside {
