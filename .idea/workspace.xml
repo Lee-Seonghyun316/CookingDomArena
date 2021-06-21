@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[Complete] main">
-      <change afterPath="$PROJECT_DIR$/css/introduction.css" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[Complete] introduction.html">
+      <change afterPath="$PROJECT_DIR$/css/howToUse.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/howToUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/howToUse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +108,7 @@
       <workItem from="1621681306984" duration="1697000" />
       <workItem from="1621683125834" duration="2070000" />
       <workItem from="1622029473679" duration="1280000" />
+      <workItem from="1624256630464" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -212,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623852637391</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="[Complete] introduction.html">
+      <created>1623853247828</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623853247828</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +254,8 @@
     <MESSAGE value="[ADD] ppt" />
     <MESSAGE value="[ADD] css" />
     <MESSAGE value="[Complete] main" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Complete] main" />
+    <MESSAGE value="[Complete] introduction.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Complete] introduction.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -281,5 +292,17 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1623847294405" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/selectCookie.js</url>
+          <line>60</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
