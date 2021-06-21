@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[Complete] introduction.html">
-      <change afterPath="$PROJECT_DIR$/css/howToUse.css" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 쿠키 찾기 알고리즘">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/howToUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/howToUse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +106,7 @@
       <workItem from="1621681306984" duration="1697000" />
       <workItem from="1621683125834" duration="2070000" />
       <workItem from="1622029473679" duration="1280000" />
-      <workItem from="1624256630464" duration="1681000" />
+      <workItem from="1624256630464" duration="3393000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -222,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623853247828</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="[FIX] 쿠키 찾기 알고리즘">
+      <created>1624258470622</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1624258470622</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +260,8 @@
     <MESSAGE value="[ADD] css" />
     <MESSAGE value="[Complete] main" />
     <MESSAGE value="[Complete] introduction.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Complete] introduction.html" />
+    <MESSAGE value="[FIX] 쿠키 찾기 알고리즘" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 쿠키 찾기 알고리즘" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -275,10 +281,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1623852639313">
-      <screen x="0" y="25" width="1440" height="814" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624258474614">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1623845022609" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624258474614" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623852639313" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />
@@ -298,7 +304,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/selectCookie.js</url>
-          <line>60</line>
+          <line>59</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>

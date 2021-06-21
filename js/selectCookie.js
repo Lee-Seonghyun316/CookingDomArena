@@ -27,7 +27,7 @@ function button1_click() {
   ];
 
   //새로운 배열 선언
-  let result_ab = new Array();
+  // let result_ab = new Array();
   let result_cd = new Array();
 
   //숨겨진 쿠키 2개의 위치 찾기
@@ -65,9 +65,20 @@ function button1_click() {
   }
 
   //배열로 만들기
-  for (let i = a + 10; i < b; i = i + 10) {
-    result_ab.push(i);
-  }
+  // for (let i = a + 10; i < b; i = i + 10) {
+  //   result_ab.push(i);
+  // }
+  let first_cookies = new Array();
+
+  first_cookies = cookies.filter(
+    (cookie) => cookie.value > a && cookie.value < b
+  );
+  console.log(first_cookies);
+  const $result = document.getElementById("result1");
+
+  $result.innerHTML = first_cookies
+    .map((first_cookie) => `<li>${first_cookie.content}</li>`)
+    .join("");
 
   {
     let c = -1;
@@ -81,22 +92,20 @@ function button1_click() {
     } else d = input[questionMark2 + 1];
 
     //배열로
-    for (let i = c + 10; i < d; i = i + 10) {
-      result_cd.push(i);
-    }
-    console.log(result_ab);
-    result_cd = result_cd.concat(result_ab);
-    console.log(result_cd);
-    let result_cookies = new Array();
+    // for (let i = c + 10; i < d; i = i + 10) {
+    //   result_cd.push(i);
+    // }
+    // result_cd = result_cd.concat(result_ab);
 
-    result_cookies = cookies.filter((cookie) =>
-      result_cd.includes(cookie.value)
+    let second_cookies = new Array();
+
+    second_cookies = cookies.filter(
+      (cookie) => cookie.value > c && cookie.value < d
     );
-    const $result = document.getElementById("result");
-    console.log(result_cookies);
+    const $result = document.getElementById("result2");
 
-    $result.innerHTML = result_cookies
-      .map((result_cookie) => `<li>${result_cookie.content}</li>`)
+    $result.innerHTML = second_cookies
+      .map((second_cookie) => `<li>${second_cookie.content}</li>`)
       .join("");
   }
 }
