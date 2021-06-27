@@ -19,40 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 쿠키 찾기 알고리즘(객체 이용)">
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 쿠키 img">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/777.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/999.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin1/dd_arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin1/title-bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin2/dd_arrow.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin2/icon-ok.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin2/title-bg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/thumnail.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/광고.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/광고2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/selectCookie.js" afterDir="false" />
     </list>
@@ -140,7 +109,7 @@
       <workItem from="1622029473679" duration="1280000" />
       <workItem from="1624256630464" duration="3598000" />
       <workItem from="1624428953369" duration="28000" />
-      <workItem from="1624782412913" duration="1351000" />
+      <workItem from="1624782412913" duration="2412000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -268,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624261155242</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="[FIX] 쿠키 value 값 변경">
+      <created>1624783791039</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783791039</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[FIX] 쿠키 img">
+      <created>1624783807688</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1624783807688</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +286,9 @@
     <MESSAGE value="[Complete] introduction.html" />
     <MESSAGE value="[FIX] 쿠키 찾기 알고리즘" />
     <MESSAGE value="[FIX] 쿠키 찾기 알고리즘(객체 이용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 쿠키 찾기 알고리즘(객체 이용)" />
+    <MESSAGE value="[FIX] 쿠키 value 값 변경" />
+    <MESSAGE value="[FIX] 쿠키 img" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 쿠키 img" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -323,10 +308,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624261159247">
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624783811263">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624261159247" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624783811263" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623852639313" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />
@@ -346,7 +331,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/selectCookie.js</url>
-          <line>64</line>
+          <line>73</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

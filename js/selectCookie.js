@@ -16,6 +16,9 @@ function button1_click() {
 
   const Nothing = 99999;
   const What = 77777;
+  const finalFrontCookie = 400;
+  const finalCenterCookie = 1000;
+  const firstBackCookie = 1100;
   //input의 value값을 저장한 list input 만들기
   const input = [
     0,
@@ -28,9 +31,15 @@ function button1_click() {
     1700,
   ];
 
+  //쿠키 경우의 수 줄이기 (전방 쿠키가 더이상 포함 안되는 경우)
+  if (input[2] === Nothing && input[1] <= finalFrontCookie) {
+    input[1] = finalFrontCookie;
+  } else if (input[4] === Nothing && input[3] <= finalCenterCookie) {
+    input[3] = finalCenterCookie;
+  } else if (input[6] === Nothing && input[5] >= firstBackCookie) {
+    input[5] = firstBackCookie;
+  }
   //새로운 배열 선언
-  // let result_ab = new Array();
-  let result_cd = new Array();
 
   //숨겨진 쿠키 2개의 위치 찾기
   const questionMark1 = input.indexOf(What);
@@ -74,9 +83,7 @@ function button1_click() {
   }
 
   //배열로 만들기
-  // for (let i = a + 10; i < b; i = i + 10) {
-  //   result_ab.push(i);
-  // }
+
   let first_cookies = new Array();
 
   first_cookies = cookies.filter(
@@ -101,10 +108,6 @@ function button1_click() {
     } else d = input[questionMark2 + 1];
 
     //배열로
-    // for (let i = c + 10; i < d; i = i + 10) {
-    //   result_cd.push(i);
-    // }
-    // result_cd = result_cd.concat(result_ab);
 
     let second_cookies = new Array();
 

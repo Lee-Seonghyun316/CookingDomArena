@@ -50,7 +50,7 @@ const cookies = [
   },
   {
     value: 600,
-    dataImage: "../Img/600.png",
+    dataImage: "../Img/600다.png",
     name: "hide",
     content: "바다요정 쿠키",
   },
