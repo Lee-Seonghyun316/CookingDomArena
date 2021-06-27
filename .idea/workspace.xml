@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 폴더구조">
-      <change beforePath="$PROJECT_DIR$/File/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/index.js" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 자잘한오류">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/File/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/selectCookie.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <workItem from="1624256630464" duration="3598000" />
       <workItem from="1624428953369" duration="28000" />
       <workItem from="1624782412913" duration="3729000" />
-      <workItem from="1624786199558" duration="360000" />
+      <workItem from="1624786199558" duration="580000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -271,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624786474279</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="[FIX] 자잘한오류">
+      <created>1624786696378</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1624786696378</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +319,8 @@
     <MESSAGE value="[ADD] CookieSelect Algorithm (전중후방 고려)" />
     <MESSAGE value="[FIX] 오타수정" />
     <MESSAGE value="[FIX] 폴더구조" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 폴더구조" />
+    <MESSAGE value="[FIX] 자잘한오류" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 자잘한오류" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -332,10 +341,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624786476216">
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624786702944">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624786476216" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624786702944" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623852639313" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />

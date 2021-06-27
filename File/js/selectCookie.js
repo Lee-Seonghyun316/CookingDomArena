@@ -28,7 +28,7 @@ function button1_click() {
     Number(tech4Value),
     Number(tech5Value),
     Number(tech6Value),
-    1700,
+    1800,
   ];
 
   //쿠키 경우의 수 줄이기 (전방 쿠키가 더이상 포함 안되는 경우)
