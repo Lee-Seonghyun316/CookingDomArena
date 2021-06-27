@@ -19,61 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 오타수정">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/100.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1000.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1000.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1100.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1100.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1200.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1300.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1400.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1500.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1600.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/1700.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/1700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/200.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/200.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/300.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/300.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/400.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/400.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/500.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/500.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/600.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/700.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/700.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/77777.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/77777.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/800.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/900.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/900.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/99999.png" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/99999.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin1/dd_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/msdropdown/skin1/dd_arrow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin1/title-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/msdropdown/skin1/title-bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin2/dd_arrow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/msdropdown/skin2/dd_arrow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin2/icon-ok.gif" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/msdropdown/skin2/icon-ok.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/msdropdown/skin2/title-bg.gif" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/msdropdown/skin2/title-bg.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/001.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/002.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/002.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/004.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/004.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/005.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/005.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/006.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/006.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/007.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/007.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/ppt/008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/ppt/008.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/thumnail.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/thumnail.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/광고.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/광고.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Img/광고2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/File/Img/광고2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dd.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/dd.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/howToUse.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/howToUse.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/introduction.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/introduction.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/practice.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/practice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/sample.css" beforeDir="false" afterPath="$PROJECT_DIR$/File/css/sample.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ArenaTip.html" beforeDir="false" afterPath="$PROJECT_DIR$/ArenaTip.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/howToUse.html" beforeDir="false" afterPath="$PROJECT_DIR$/howToUse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/practice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery/jquery-1.9.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/jquery/jquery-1.9.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/msdropdown/jquery.dd.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/msdropdown/jquery.dd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/msdropdown/jquery.dd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/msdropdown/jquery.dd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/selectCookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/selectCookie.js" afterDir="false" />
+    <list default="true" id="3a9152a2-4f1a-4861-94b3-ea87fc057f79" name="Default Changelist" comment="[FIX] 폴더구조">
+      <change beforePath="$PROJECT_DIR$/File/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/File/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +108,7 @@
       <workItem from="1624256630464" duration="3598000" />
       <workItem from="1624428953369" duration="28000" />
       <workItem from="1624782412913" duration="3729000" />
-      <workItem from="1624786199558" duration="235000" />
+      <workItem from="1624786199558" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <created>1620449363114</created>
@@ -317,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624785724957</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[FIX] 폴더구조">
+      <created>1624786474279</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1624786474279</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,7 +310,8 @@
     <MESSAGE value="[FIX] 쿠키 img" />
     <MESSAGE value="[ADD] CookieSelect Algorithm (전중후방 고려)" />
     <MESSAGE value="[FIX] 오타수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 오타수정" />
+    <MESSAGE value="[FIX] 폴더구조" />
+    <option name="LAST_COMMIT_MESSAGE" value="[FIX] 폴더구조" />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="290" key="#Prettier" timestamp="1620477980723">
@@ -377,10 +332,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="229" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1620449149510" />
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624783811263">
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2" timestamp="1624786476216">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624783811263" />
+    <state x="320" y="159" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1624786476216" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.814@0.25.1440.814" timestamp="1623852639313" />
     <state x="521" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622080675951">
       <screen x="0" y="25" width="1440" height="814" />
