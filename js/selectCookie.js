@@ -14,16 +14,18 @@ function button1_click() {
   const tech6 = document.getElementById("tech6");
   const tech6Value = tech6.options[tech6.selectedIndex].value;
 
+  const Nothing = 99999;
+  const What = 77777;
   //input의 value값을 저장한 list input 만들기
   const input = [
-    1,
+    0,
     Number(tech1Value),
     Number(tech2Value),
     Number(tech3Value),
     Number(tech4Value),
     Number(tech5Value),
     Number(tech6Value),
-    141,
+    1700,
   ];
 
   //새로운 배열 선언
@@ -31,15 +33,15 @@ function button1_click() {
   let result_cd = new Array();
 
   //숨겨진 쿠키 2개의 위치 찾기
-  const questionMark1 = input.indexOf(777);
-  const questionMark2 = input.lastIndexOf(777);
+  const questionMark1 = input.indexOf(What);
+  const questionMark2 = input.lastIndexOf(What);
 
   //숨겨진 쿠키 1의 앞 뒤 알아내기
   let a = -1;
   let b = -1;
 
   //숨겨진 쿠키 전에 없는 쿠키라면 a는 그 전 값이 된다.
-  if (input[questionMark1 - 1] === 999) a = input[questionMark1 - 2];
+  if (input[questionMark1 - 1] === Nothing) a = input[questionMark1 - 2];
   //아니면 a는 숨겨진 쿠키 전 값이 되겠지
   else a = input[questionMark1 - 1];
 
@@ -47,8 +49,14 @@ function button1_click() {
   //b는 세번째 뒤에
   //아니면 2번째 뒤에
   //그것도 아니면 첫번째 뒤에
-  if (input[questionMark1 + 1] === 999 || input[questionMark1 + 1] === 777) {
-    if (input[questionMark1 + 2] === 999 || input[questionMark1 + 2] === 777)
+  if (
+    input[questionMark1 + 1] === Nothing ||
+    input[questionMark1 + 1] === What
+  ) {
+    if (
+      input[questionMark1 + 2] === Nothing ||
+      input[questionMark1 + 2] === What
+    )
       b = input[questionMark1 + 3];
     else b = input[questionMark1 + 2];
   } else b = input[questionMark1 + 1];
@@ -57,8 +65,9 @@ function button1_click() {
 
   //만약 아래와 같은 2가지 경우라면 나누지 않고 한번에 쿠키 출력
   if (
-    (input[questionMark1 + 1] === 777 && input[questionMark1 + 2] === 999) ||
-    (input[questionMark1 + 1] === 999 && input[questionMark1 + 2] === 777)
+    (input[questionMark1 + 1] === What &&
+      input[questionMark1 + 2] === Nothing) ||
+    (input[questionMark1 + 1] === Nothing && input[questionMark1 + 2] === What)
   ) {
     //true 이면 한번에 출력 일단 안하고
     endCookie = true;
@@ -83,11 +92,11 @@ function button1_click() {
   {
     let c = -1;
     let d = -1;
-    if (input[questionMark2 - 1] === 999) {
+    if (input[questionMark2 - 1] === Nothing) {
       c = input[questionMark2 - 2];
     } else c = input[questionMark2 - 1];
 
-    if (input[questionMark2 + 1] === 999) {
+    if (input[questionMark2 + 1] === Nothing) {
       d = input[questionMark2 + 2];
     } else d = input[questionMark2 + 1];
 
